@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 50px;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray; 
+  gap: 20px;
+}
+
+
+.animated-btn {
+  background-color: brown; /* Default color */
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Hover effect */
+.animated-btn:hover {
+  background-color: #2ecc71; /* Change to green */
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Increase shadow */
+}
